@@ -7,6 +7,7 @@ import { AddButton } from './components/addButton/AddButton.jsx';
 import {Line} from './components/Line/Line.jsx';
 import {Tester12} from './components/test12/Tester12.jsx'
 import { Stopwatch } from './components/stopwatch/StopWatch.jsx';
+import { DiceGame } from './components/diceGame/diceGame.jsx';
 import './App.css'
 
 
@@ -15,7 +16,7 @@ function App() {
   return (
     <>
       <div>
-        <Todo></Todo>
+        <DiceGame></DiceGame>
 
         
         
