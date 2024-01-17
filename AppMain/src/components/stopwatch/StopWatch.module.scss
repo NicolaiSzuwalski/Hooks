@@ -1,0 +1,20 @@
+.container{
+    border: solid 5px #efefef;
+    display: flex;
+    justify-content: center;
+    border-radius:500px;
+    padding: 100px;
+    gap: 1;
+    div{
+        display: flex;
+        gap: 0.5rem;
+    }
+    button{
+        padding: 5px;
+        background-color: #efefef;
+        border: none;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}
